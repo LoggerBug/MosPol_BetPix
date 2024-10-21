@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/legueTable"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.LegueTable"
+        android:label="fragment_legue_table"
+        tools:layout="@layout/fragment_legue_table" />
+    <fragment
+        android:id="@+id/contactUs"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.ContactUs"
+        android:label="fragment_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/privatePolicy"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.PrivatePolicy"
+        android:label="fragment_private_policy"
+        tools:layout="@layout/fragment_private_policy" />
+    <fragment
+        android:id="@+id/startGame"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.game.StartGame"
+        android:label="fragment_start_game"
+        tools:layout="@layout/fragment_start_game" />
+    <fragment
+        android:id="@+id/firstHistory"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.game.FirstHistory"
+        android:label="fragment_first_history"
+        tools:layout="@layout/fragment_first_history" />
+    <fragment
+        android:id="@+id/secondHistory"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.game.SecondHistory"
+        android:label="fragment_second_history"
+        tools:layout="@layout/fragment_second_history" />
+    <fragment
+        android:id="@+id/therdHistory"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.game.TherdHistory"
+        android:label="fragment_therd_history"
+        tools:layout="@layout/fragment_therd_history" />
+    <fragment
+        android:id="@+id/fourthHistory"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.game.FourthHistory"
+        android:label="fragment_fourth_history"
+        tools:layout="@layout/fragment_fourth_history" />
+    <fragment
+        android:id="@+id/watchTeamMain"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.watchteam.WatchTeamMain"
+        android:label="fragment_watch_team_main"
+        tools:layout="@layout/fragment_watch_team_main" />
+    <fragment
+        android:id="@+id/gelerios"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.watchteam.Gelerios"
+        android:label="fragment_gelerios"
+        tools:layout="@layout/fragment_gelerios" />
+    <fragment
+        android:id="@+id/laterais"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.watchteam.Laterais"
+        android:label="fragment_laterais"
+        tools:layout="@layout/fragment_laterais" />
+    <fragment
+        android:id="@+id/atacker"
+        android:name="com.pixbet.pixbetapostas.pixbetapp.pixbetbr.screen.watchteam.Atacker"
+        android:label="fragment_atacker"
+        tools:layout="@layout/fragment_atacker" />
+</navigation>

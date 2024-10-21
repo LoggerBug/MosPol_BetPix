@@ -1,2 +1,2 @@
 # MosPol_BetPix
-MosPol
+Demo Android app for tracking football championships by Ilya Shubin

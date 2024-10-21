@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "631361792179",
+    "project_id": "betrixgofo",
+    "storage_bucket": "betrixgofo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631361792179:android:337a0a3b7f8dab77d728c6",
+        "android_client_info": {
+          "package_name": "com.pixbet.pixbetapostas.pixbetapp.pixbetbr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkTIH3mzd67EfDeQpz2TdnpggDJG3Gf_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
